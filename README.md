@@ -1,4 +1,8 @@
-# spacer2
+# spacer app
+
+This app uses NASA image API to fetch images and display them after passing search query.
+
+### Hello Roman - youtube vue course
 
 ## Project setup
 ```
@@ -32,3 +36,5 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
