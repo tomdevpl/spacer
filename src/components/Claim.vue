@@ -28,11 +28,27 @@ export default {
     .claim {
         margin: 0;
         font-size: 50px;
+
+        @media(min-width: 768px) {
+            font-size: 80px;
+        }
+
+        @media(min-width: 1024px) {
+            font-size: 100px;
+        }
     }
 
     .subclaim {
         margin-top: 20px;
         font-size: 13px;
+        font-weight: 400;
 
+        @media(min-width: 768px) {
+            width: 500px;
+            font-size: 17px;
+            line-height: 1;
+            letter-spacing: 1px;
+        }
     }
+        
 </style>
